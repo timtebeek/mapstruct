@@ -88,7 +88,7 @@ public class ModelIncludeDirective implements TemplateDirectiveModel {
      */
     @SuppressWarnings({ "rawtypes", "unchecked" })
     private DefaultModelElementWriterContext createContext(Map params) {
-        Map<String, Object> ext = new HashMap<String, Object>( params );
+        Map<String, Object> ext = new HashMap<>( params );
         ext.remove( "object" );
 
         Map<Class<?>, Object> values = new HashMap<>();

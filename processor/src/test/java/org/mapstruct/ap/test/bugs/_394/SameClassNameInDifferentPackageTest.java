@@ -28,7 +28,7 @@ public class SameClassNameInDifferentPackageTest {
 
     @ProcessorTest
     public void shouldCreateMapMethodImplementation() {
-        Map<String, AnotherCar> values = new HashMap<String, AnotherCar>();
+        Map<String, AnotherCar> values = new HashMap<>();
         //given
         AnotherCar honda = new AnotherCar( "Honda", 2 );
         AnotherCar toyota = new AnotherCar( "Toyota", 2);

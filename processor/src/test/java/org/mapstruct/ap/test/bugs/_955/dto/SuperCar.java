@@ -13,7 +13,7 @@ import java.util.Map;
  * @author Sjaak Derksen
  */
 public class SuperCar {
-    private Map<String, Person> persons = new HashMap<String, Person>();
+    private Map<String, Person> persons = new HashMap<>();
 
     public Map<String, Person> getPersons() {
         return persons;

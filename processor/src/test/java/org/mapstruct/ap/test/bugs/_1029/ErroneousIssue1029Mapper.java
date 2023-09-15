@@ -93,7 +93,7 @@ public interface ErroneousIssue1029Mapper {
         }
 
         public Map<String, Integer> getComputedMapping() {
-            return new TreeMap<String, Integer>();
+            return new TreeMap<>();
         }
     }
 }

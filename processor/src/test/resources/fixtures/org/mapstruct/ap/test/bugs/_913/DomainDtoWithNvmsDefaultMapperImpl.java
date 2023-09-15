@@ -232,10 +232,10 @@ public class DomainDtoWithNvmsDefaultMapperImpl implements DomainDtoWithNvmsDefa
 
     protected Set<Long> stringListToLongSet(List<String> list) {
         if ( list == null ) {
-            return new LinkedHashSet<Long>();
+            return new LinkedHashSet<>();
         }
 
-        Set<Long> set = new LinkedHashSet<Long>( Math.max( (int) ( list.size() / .75f ) + 1, 16 ) );
+        Set<Long> set = new LinkedHashSet<>( Math.max( (int) ( list.size() / .75f ) + 1, 16 ) );
         for ( String string : list ) {
             set.add( Long.parseLong( string ) );
         }

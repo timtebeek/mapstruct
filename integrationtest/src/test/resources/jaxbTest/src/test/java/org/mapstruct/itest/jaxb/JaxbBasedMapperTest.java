@@ -43,7 +43,7 @@ public class JaxbBasedMapperTest {
         source1.getShippingAddress().setHouseNumber( "11a" );
         source1.getShippingAddress().setStreet( "Awesome rd" );
         source1.getShippingAddress().setCountry( "USA" );
-        source1.getOrderDetails().setDescription( new ArrayList<String>() );
+        source1.getOrderDetails().setDescription( new ArrayList<>() );
         source1.getOrderDetails().setName( "Shopping list for a Mapper" );
         source1.getOrderDetails().getDescription().add( "1 MapStruct" );
         source1.getOrderDetails().getDescription().add( "3 Lines of Code" );
